@@ -1,0 +1,1099 @@
+{
+	"info": {
+		"_postman_id": "c4b2788b-fa0f-4fba-a444-1725c78f1a93",
+		"name": "Post",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21110484"
+	},
+	"item": [
+		{
+			"name": "Get_Post_List",
+			"item": [
+				{
+					"name": "Get_Post_List (page=0)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}post?page=0",
+							"host": [
+								"{{host}}post"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "0"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get_Post_List (page=1)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}post?page=1",
+							"host": [
+								"{{host}}post"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get_Post_List (page=999)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}post?page=999",
+							"host": [
+								"{{host}}post"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "999"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get_Post_List (page=1000)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}post?page=1000",
+							"host": [
+								"{{host}}post"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "1000"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get_Post_List",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}post",
+							"host": [
+								"{{host}}post"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get_Post_List_created=0",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}post?created=0",
+							"host": [
+								"{{host}}post"
+							],
+							"query": [
+								{
+									"key": "created",
+									"value": "0"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get_Post_List_created=1",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}post?created=1",
+							"host": [
+								"{{host}}post"
+							],
+							"query": [
+								{
+									"key": "created",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get_Post_List_created=2",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}post?created=2",
+							"host": [
+								"{{host}}post"
+							],
+							"query": [
+								{
+									"key": "created",
+									"value": "2"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get_Post_List_created=qwerty",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}post?created=qwerty",
+							"host": [
+								"{{host}}post"
+							],
+							"query": [
+								{
+									"key": "created",
+									"value": "qwerty"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get_Post_List (limit=0)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}post?limit=0",
+							"host": [
+								"{{host}}post"
+							],
+							"query": [
+								{
+									"key": "limit",
+									"value": "0"
+								},
+								{
+									"key": "page",
+									"value": "1",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get_Post_List (limit=4)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}post?limit=4",
+							"host": [
+								"{{host}}post"
+							],
+							"query": [
+								{
+									"key": "limit",
+									"value": "4"
+								},
+								{
+									"key": "page",
+									"value": "1",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get_Post_List (limit=5)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}post?limit=5",
+							"host": [
+								"{{host}}post"
+							],
+							"query": [
+								{
+									"key": "limit",
+									"value": "5"
+								},
+								{
+									"key": "page",
+									"value": "1",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get_Post_List (limit=50)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}post?limit=50",
+							"host": [
+								"{{host}}post"
+							],
+							"query": [
+								{
+									"key": "limit",
+									"value": "50"
+								},
+								{
+									"key": "page",
+									"value": "1",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get_Post_List (limit=qwerty)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}post?limit=qwerty",
+							"host": [
+								"{{host}}post"
+							],
+							"query": [
+								{
+									"key": "limit",
+									"value": "qwerty"
+								},
+								{
+									"key": "page",
+									"value": "1",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get_Post_ByID",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}post/60d21bd267d0d8992e610e21",
+							"host": [
+								"{{host}}post"
+							],
+							"path": [
+								"60d21bd267d0d8992e610e21"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get_Post_ByUser",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}user/60d0fe4f5311236168a10a12/post",
+							"host": [
+								"{{host}}user"
+							],
+							"path": [
+								"60d0fe4f5311236168a10a12",
+								"post"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get_Post_List (page=qwerty)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}post?page=qwerty",
+							"host": [
+								"{{host}}post"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "qwerty"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get_Post_List (wrong method)",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{host}}post",
+							"host": [
+								"{{host}}post"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Create_Post",
+			"item": [
+				{
+					"name": "Create_Post",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"text\": \"Настойка валерианы (разг. «валерьянка») — прозрачная жидкость красно-бурого цвета (темнеет под влиянием солнечного света), характерного ароматного запаха и сладковато-горького вкуса.\",\r\n     \r\n    \"tags\": [ \r\n        \"медицина\",\r\n        \"валерьянка\"\r\n    ],\r\n    \"owner\":   \"60d0fe4f5311236168a10a12\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}post/create",
+							"host": [
+								"{{host}}post"
+							],
+							"path": [
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create_Post_Owner=\" \"",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"text\": \"Test_front view of black and white puppy sitting on brown sofa\",\r\n    \"image\": \"https://bipbap.ru/wp-content/uploads/2017/09/fonstola.ru_70988_1280x960.jpg\",\r\n    \"likes\": 0,\r\n    \"tags\": [\r\n        \"dog\",\r\n        \"grey\",\r\n        \"puppy\"\r\n    ],\r\n    \"owner\":   \" \"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}post/create",
+							"host": [
+								"{{host}}post"
+							],
+							"path": [
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create_Post_Owner=wrong",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"text\": \"Test_front view of black and white puppy sitting on brown sofa\",\r\n    \"image\": \"https://bipbap.ru/wp-content/uploads/2017/09/fonstola.ru_70988_1280x960.jpg\",\r\n    \"likes\": 0,\r\n    \"tags\": [\r\n        \"dog\",\r\n        \"grey\",\r\n        \"puppy\"\r\n    ],\r\n    \"owner\":   \"531hjfhjfghd68a10a12\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}post/create",
+							"host": [
+								"{{host}}post"
+							],
+							"path": [
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create_Post_Owner=null",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"text\": \"Test_front view of black and white puppy sitting on brown sofa\",\r\n    \"image\": \"https://bipbap.ru/wp-content/uploads/2017/09/fonstola.ru_70988_1280x960.jpg\",\r\n    \"likes\": 0,\r\n    \"tags\": [\r\n        \"dog\",\r\n        \"grey\",\r\n        \"puppy\"\r\n    ]\r\n    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}post/create",
+							"host": [
+								"{{host}}post"
+							],
+							"path": [
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create_Post_tags=number",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"text\": \"Test_front view of black and white puppy sitting on brown sofa\",\r\n    \"image\": \"https://bipbap.ru/wp-content/uploads/2017/09/fonstola.ru_70988_1280x960.jpg\",\r\n    \"likes\": 0,\r\n    \"tags\": 1,\r\n    \"owner\":   \"60d0fe4f5311236168a10a12\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}post/create",
+							"host": [
+								"{{host}}post"
+							],
+							"path": [
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create_Post_tags=abc",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"text\": \"Test_front view of black and white puppy sitting on brown sofa\",\r\n    \"image\": \"https://bipbap.ru/wp-content/uploads/2017/09/fonstola.ru_70988_1280x960.jpg\",\r\n    \"likes\": 0,\r\n    \"tags\": \"abc\",\r\n    \"owner\":   \"60d0fe4f5311236168a10a12\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}post/create",
+							"host": [
+								"{{host}}post"
+							],
+							"path": [
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create_Post_tags=абв",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"text\": \"Test_front view of black and white puppy sitting on brown sofa\",\r\n    \"image\": \"https://bipbap.ru/wp-content/uploads/2017/09/fonstola.ru_70988_1280x960.jpg\",\r\n    \"likes\": 0,\r\n    \"tags\": \"абв\",\r\n    \"owner\":   \"60d0fe4f5311236168a10a12\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}post/create",
+							"host": [
+								"{{host}}post"
+							],
+							"path": [
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create_Post_Tags=null",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"text\": \"Test_front view of black and white puppy sitting on brown sofa\",\r\n    \"image\": \"https://bipbap.ru/wp-content/uploads/2017/09/fonstola.ru_70988_1280x960.jpg\",\r\n    \"likes\": 0,\r\n    \r\n    \"owner\":   \"60d0fe4f5311236168a10a12\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}post/create",
+							"host": [
+								"{{host}}post"
+							],
+							"path": [
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create_Post_Likes=null",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"text\": \"Test_front view of black and white puppy sitting on brown sofa\",\r\n    \"image\": \"https://bipbap.ru/wp-content/uploads/2017/09/fonstola.ru_70988_1280x960.jpg\",\r\n        \"tags\": [\r\n        \"dog\",\r\n        \"grey\",\r\n        \"puppy\"\r\n    ],\r\n    \"owner\":   \"60d0fe4f5311236168a10a12\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}post/create",
+							"host": [
+								"{{host}}post"
+							],
+							"path": [
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create_Post_Likes=-1",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"text\": \"Test_front view of black and white puppy sitting on brown sofa\",\r\n    \"image\": \"https://bipbap.ru/wp-content/uploads/2017/09/fonstola.ru_70988_1280x960.jpg\",\r\n    \"likes\": -1,\r\n    \"tags\": [\r\n        \"dog\",\r\n        \"grey\",\r\n        \"puppy\"\r\n    ],\r\n    \"owner\":   \"60d0fe4f5311236168a10a12\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}post/create",
+							"host": [
+								"{{host}}post"
+							],
+							"path": [
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create_Post_Likes=1",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"text\": \"Test_front view of black and white puppy sitting on brown sofa\",\r\n    \"image\": \"https://bipbap.ru/wp-content/uploads/2017/09/fonstola.ru_70988_1280x960.jpg\",\r\n    \"likes\": 1,\r\n        \"tags\": [\r\n        \"dog\",\r\n        \"grey\",\r\n        \"puppy\"\r\n    ],\r\n    \"owner\":   \"60d0fe4f5311236168a10a12\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}post/create",
+							"host": [
+								"{{host}}post"
+							],
+							"path": [
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create_Post_Likes=qwerty",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"text\": \"Test_front view of black and white puppy sitting on brown sofa\",\r\n    \"image\": \"https://bipbap.ru/wp-content/uploads/2017/09/fonstola.ru_70988_1280x960.jpg\",\r\n    \"likes\": \"qwerty\",\r\n        \"tags\": [\r\n        \"dog\",\r\n        \"grey\",\r\n        \"puppy\"\r\n    ],\r\n    \"owner\":   \"60d0fe4f5311236168a10a12\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}post/create",
+							"host": [
+								"{{host}}post"
+							],
+							"path": [
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create_Post_image=number",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"text\": \"Test_front view of black and white puppy sitting on brown sofa\",\r\n    \"image\": 123,\r\n    \"likes\": 0,\r\n    \"tags\": [\r\n        \"dog\",\r\n        \"grey\",\r\n        \"puppy\"\r\n    ],\r\n    \"owner\":   \"60d0fe4f5311236168a10a12\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}post/create",
+							"host": [
+								"{{host}}post"
+							],
+							"path": [
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create_Post_image=qwerty",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"text\": \"Test_front view of black and white puppy sitting on brown sofa\",\r\n    \"image\": \"qwerty\",\r\n    \"likes\": 0,\r\n    \"tags\": [\r\n        \"dog\",\r\n        \"grey\",\r\n        \"puppy\"\r\n    ],\r\n    \"owner\":   \"60d0fe4f5311236168a10a12\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}post/create",
+							"host": [
+								"{{host}}post"
+							],
+							"path": [
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create_Post_image=буквы",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"text\": \"Test_front view of black and white puppy sitting on brown sofa\",\r\n    \"image\": \"Буквы\",\r\n    \"likes\": 0,\r\n    \"tags\": [\r\n        \"dog\",\r\n        \"grey\",\r\n        \"puppy\"\r\n    ],\r\n    \"owner\":   \"60d0fe4f5311236168a10a12\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}post/create",
+							"host": [
+								"{{host}}post"
+							],
+							"path": [
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create_Post_Image=null",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"text\": \"Test_front view of black and white puppy sitting on brown sofa\",\r\n     \"likes\": 0,\r\n    \"tags\": [\r\n        \"dog\",\r\n        \"grey\",\r\n        \"puppy\"\r\n    ],\r\n    \"owner\":   \"60d0fe4f5311236168a10a12\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}post/create",
+							"host": [
+								"{{host}}post"
+							],
+							"path": [
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create_Post_text length=5",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"text\": \"Test_\",\r\n    \"image\": \"https://bipbap.ru/wp-content/uploads/2017/09/fonstola.ru_70988_1280x960.jpg\",\r\n    \"likes\": 0,\r\n    \"tags\": [\r\n        \"dog\",\r\n        \"grey\",\r\n        \"puppy\"\r\n    ],\r\n    \"owner\":   \"60d0fe4f5311236168a10a12\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}post/create",
+							"host": [
+								"{{host}}post"
+							],
+							"path": [
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create_Post_text =number",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"text\": 123,\r\n    \"image\": \"https://bipbap.ru/wp-content/uploads/2017/09/fonstola.ru_70988_1280x960.jpg\",\r\n    \"likes\": 0,\r\n    \"tags\": [\r\n        \"dog\",\r\n        \"grey\",\r\n        \"puppy\"\r\n    ],\r\n    \"owner\":   \"60d0fe4f5311236168a10a12\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}post/create",
+							"host": [
+								"{{host}}post"
+							],
+							"path": [
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create_Post_text =boolean",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"text\": true,\r\n    \"image\": \"https://bipbap.ru/wp-content/uploads/2017/09/fonstola.ru_70988_1280x960.jpg\",\r\n    \"likes\": 0,\r\n    \"tags\": [\r\n        \"dog\",\r\n        \"grey\",\r\n        \"puppy\"\r\n    ],\r\n    \"owner\":   \"60d0fe4f5311236168a10a12\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}post/create",
+							"host": [
+								"{{host}}post"
+							],
+							"path": [
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create_Post_text = Array",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"text\": [\r\n        \"dog\",\r\n        \"grey\",\r\n        \"puppy\"\r\n    ],\r\n    \"image\": \"https://bipbap.ru/wp-content/uploads/2017/09/fonstola.ru_70988_1280x960.jpg\",\r\n    \"likes\": 0,\r\n    \"tags\": [\r\n        \"dog\",\r\n        \"grey\",\r\n        \"puppy\"\r\n    ],\r\n    \"owner\":   \"60d0fe4f5311236168a10a12\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}post/create",
+							"host": [
+								"{{host}}post"
+							],
+							"path": [
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create_Post_text =object",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"text\": {\r\n        \"id\": \"60d0fe4f5311236168a10a12\",\r\n        \"title\": \"mr\",\r\n        \"firstName\": \"Kenneth\",\r\n        \"lastName\": \"Carter\",\r\n        \"picture\": \"https://randomuser.me/api/portraits/med/men/40.jpg\"\r\n    },\r\n    \"image\": \"https://bipbap.ru/wp-content/uploads/2017/09/fonstola.ru_70988_1280x960.jpg\",\r\n    \"likes\": 0,\r\n    \"tags\": [\r\n        \"dog\",\r\n        \"grey\",\r\n        \"puppy\"\r\n    ],\r\n    \"owner\":   \"60d0fe4f5311236168a10a12\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}post/create",
+							"host": [
+								"{{host}}post"
+							],
+							"path": [
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create_Post_text length=6",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"text\": \"Test_1\",\r\n    \"image\": \"https://bipbap.ru/wp-content/uploads/2017/09/fonstola.ru_70988_1280x960.jpg\",\r\n    \"likes\": 0,\r\n    \"tags\": [\r\n        \"dog\",\r\n        \"grey\",\r\n        \"puppy\"\r\n    ],\r\n    \"owner\":   \"60d0fe4f5311236168a10a12\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}post/create",
+							"host": [
+								"{{host}}post"
+							],
+							"path": [
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create_Post_text length=50",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"text\": \"Текст – это несколько предложений, связанных между с\",\r\n    \"image\": \"https://bipbap.ru/wp-content/uploads/2017/09/fonstola.ru_70988_1280x960.jpg\",\r\n    \"likes\": 0,\r\n    \"tags\": [\r\n        \"dog\",\r\n        \"grey\",\r\n        \"puppy\"\r\n    ],\r\n    \"owner\":   \"60d0fe4f5311236168a10a12\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}post/create",
+							"host": [
+								"{{host}}post"
+							],
+							"path": [
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create_Post_text length=more then 50",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"text\": \"Текст – это несколько предложений, связанных между собой по смыслу и грамматически. \",\r\n    \"image\": \"https://bipbap.ru/wp-content/uploads/2017/09/fonstola.ru_70988_1280x960.jpg\",\r\n    \"likes\": 0,\r\n    \"tags\": [\r\n        \"dog\",\r\n        \"grey\",\r\n        \"puppy\"\r\n    ],\r\n    \"owner\":   \"60d0fe4f5311236168a10a12\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}post/create",
+							"host": [
+								"{{host}}post"
+							],
+							"path": [
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create_Post_text=null",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"image\": \"https://bipbap.ru/wp-content/uploads/2017/09/fonstola.ru_70988_1280x960.jpg\",\r\n    \"likes\": 0,\r\n    \"tags\": [\r\n        \"dog\",\r\n        \"grey\",\r\n        \"puppy\"\r\n    ],\r\n    \"owner\":   \"60d0fe4f5311236168a10a12\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}post/create",
+							"host": [
+								"{{host}}post"
+							],
+							"path": [
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create_Post_id=2",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\": \"2\"\r\n    \"text\": \"Test_front view of black and white puppy sitting on brown sofa\",\r\n    \"image\": \"https://bipbap.ru/wp-content/uploads/2017/09/fonstola.ru_70988_1280x960.jpg\",\r\n    \"likes\": 0,\r\n    \"tags\": [\r\n        \"dog\",\r\n        \"grey\",\r\n        \"puppy\"\r\n    ],\r\n    \"owner\":   \"60d0fe4f5311236168a10a12\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}post/create",
+							"host": [
+								"{{host}}post"
+							],
+							"path": [
+								"create"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	],
+	"auth": {
+		"type": "apikey",
+		"apikey": [
+			{
+				"key": "value",
+				"value": "{{app-id}}",
+				"type": "string"
+			},
+			{
+				"key": "key",
+				"value": "app-id",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}
