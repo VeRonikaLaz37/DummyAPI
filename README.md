@@ -9,14 +9,14 @@ https://dummyapi.io Данный сайт представляет собой с
 ### Post
 __________________________________
 
-## Get List
+### Get List
 Возвращает список записей, отсортированных по дате создания.
  * доступен query params для вывода определеннной страницы.
  * доступен query params для отображения количества постов на странице.
 
-'' Response body: ''
+` Response body: `
 
-'' List ''
+` List `
 
 Структура данных для всех ответов, возвращающих массив данных.
 
@@ -28,7 +28,8 @@ page: number(current page)
 limit: number(number of items on page)
 }
 ```
-Post Preview
+
+` Post Preview `
 
 Информация о посте в списке.
 
@@ -45,7 +46,7 @@ owner: object(User Preview)
 ```
 
 
-User Preview
+` User Preview `
 
 Объект owner
 
@@ -58,12 +59,15 @@ lastName: string(length: 2-50)
 picture: string(url)
 }
 ```
+___________
 
-Post Create
+### Post Create
+
 POST  /post/create
-Информация о посте для запросов на создание.
 
-Request Body:
+Запрос создает новый пост. Возвращает информацию о посте.
+
+` Request Body: `
 
 ```
 {
@@ -74,7 +78,8 @@ tags: array(string)
 owner: string(User id)
 }
 ```
-Response Body:
+
+` Response Body: `
 
 ```
 {
