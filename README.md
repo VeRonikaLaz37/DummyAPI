@@ -99,4 +99,10 @@ ________
 Данная майнд карта представляет собой набор тестов для тестирования объекта Post. Подробная проверка расписана для Get List и Create Post.
 
 
-![Alt-текст](https://drive.google.com/file/d/1JQFn_cZFWoirrxrdGZuuSNf1Uqo0nbcB/view?usp=share_link)
+  ![Alt-текст](https://drive.google.com/file/d/1JQFn_cZFWoirrxrdGZuuSNf1Uqo0nbcB/view?usp=share_link "МК")
+
+
+
+
+
+
